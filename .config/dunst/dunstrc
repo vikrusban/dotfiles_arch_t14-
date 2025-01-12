@@ -1,0 +1,26 @@
+[global]
+    monitor = 0
+    follow = keyboard
+    padding = 8
+    horizontal_padding = 8
+    font = "JetBrainsMono Nerd Font Mono 10"
+    format = "<b>%a</b>\n<i>%s</i>\n%b"
+
+[shortcuts]
+  close = ctrl+grave
+  close_all = ctrl+shift+grave
+
+[urgency_low]
+    background = "#000000"
+    foreground = "#008080"
+    timeout = 0
+
+[urgency_normal]
+    background = "#000000"
+    foreground = "#f5f5dc"
+    timeout = 0
+
+[urgency_critical]
+    background = "#000000"
+    foreground = "#ff6347"
+    timeout = 0
